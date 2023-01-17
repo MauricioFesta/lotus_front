@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "downlevelIteration": true,
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2015",
+      "DOM",
+      "ES5",
+      "ScriptHost"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  // "include": [
+  //   "src"
+  // ],
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error"
+    ]
+  },
+  "noImplicitAny": true,
+  "strictNullChecks": true,
+  "noImplicitThis": true,
+  "alwaysStrict": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noImplicitReturns": true,
+  "noFallthroughCasesInSwitch": true
+}

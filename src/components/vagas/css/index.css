@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1920px) {
+    .scroll-card {
+        height: 1000px;
+        overflow-y: auto;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .scroll-card {
+        height: 500px;
+        overflow-y: auto;
+    }
+}
+
+.candidatura-enviada {
+    opacity: 0.2;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.vagas-cards {
+    background-color: #F8F8FF;
+}
+
+.vagas-cards-title {
+    font-weight: bolder;
+   
+}
+
+.img-view-detail {
+    height: 200px
+}
+
+.detail {
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+}
+
+.edit-vaga{
+    margin-left: 20px !important;
+}
+
+
+
+.footer-pagination{
+    margin-top: 50px;
+    margin-left: 60%;
+ 
+}
+
+
+
+
+
+
+
+

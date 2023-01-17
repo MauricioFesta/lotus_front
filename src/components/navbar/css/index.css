@@ -1,0 +1,48 @@
+.linkDefault {
+    color: #fff !important;
+}
+
+.linkDefault:hover {
+    color: #fff !important;
+}
+
+.layout-default {
+    background-color: #05396b !important;
+}
+
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.bg-color {
+    background-color: #560CCE!important;
+    height: 58px !important;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+    position: relative;
+    width: 36px;
+    font-size: 24px;
+
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+    font-size: 0.75rem;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+    top: 3px;
+    line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+    top: -10px;
+}
+
+.name-navs-itens{
+    color: #F4F4F4;
+    font-size: 14px;
+}
+
